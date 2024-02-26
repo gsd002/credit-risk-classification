@@ -45,8 +45,5 @@ Summarise the results of the machine learning models, and include a recommendati
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? )
 
 If you do not recommend any of the models, please justify your reasoning.
-The logistic regression model demonstrates exceptional performance in identifying healthy loans with perfect precision and recall scores. It also showes a strong capability in detecting high-risk loans, though with slightly lower precision and recall. 
-This indicates that while the model is highly reliable in classifying loans, there's a minor chance of misclassifying high-risk loans as healthy. 
-Given the model's high overall accuracy, it is recommended for use in evaluating loan applications to identify potential risks. 
-However, for critical financial decisions, additional checks or a combination of models could be considered to further minimize the risk of misclassification.
+The logistic regression model demonstrates exceptional performance in identifying healthy loans with perfect precision and recall scores. It also shows a strong capability in detecting high-risk loans, though with slightly lower precision and recall.  This indicates that while the model is highly reliable in classifying loans, there's a minor chance of misclassifying high-risk loans as healthy. Given the model's high overall accuracy, it is recommended for use in evaluating loan applications to identify potential risks. However, for critical financial decisions, additional checks or a combination of models could be considered to further minimize the risk of misclassification.
 
