@@ -8,7 +8,7 @@ In this section, describe the analysis you completed for the machine learning mo
 The purpose of this analysis is to develop a machine learning model that can accurately predict the risk associated with loan applications. By using logistic regression, the aim is to classify loans into healthy (0) and high-risk (1) categories based on various financial indicators.
 
 * Explain what financial information the data was on, and what you needed to predict.
-The data consists of several features: loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks, total_debt, and the target variable loan_status. The 'loan_status' column, indicates whether a loan is healthy (0) or has a high risk of defaulting (1).
+The data was on historical lending activity from a peer-to-peer lending services company. It consists of features such as loan_size, interest_rate, borrower_income, debt_to_income, num_of_accounts, derogatory_marks, total_debt, and the target variable loan_status. The 'loan_status' column, indicates whether a loan is healthy (0) or has a high risk of defaulting (1). We need to build a model that can identify the creditworthiness of borrowers.
 
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
 The target variable 'loan_status' shows that there are 75,036 loans that were healthy (0) and 2,500 loans that were high-risk (1). The data has been successfully split into training and testing sets. We have 58,152 samples in the training set and 19,384 samples in the testing set, with each sample containing 7 features.
